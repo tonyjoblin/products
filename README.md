@@ -1,5 +1,8 @@
 # Products
 
+Products app to play around with some aws(?) tech.
+Started with a suspenders setup.
+
 ## Getting Started
 
 After you have cloned this repo, run this setup script to set up your machine
