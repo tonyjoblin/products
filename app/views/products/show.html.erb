@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Item number:</strong>
+  <%= @product.item_number %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= number_to_currency(@product.price) %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
